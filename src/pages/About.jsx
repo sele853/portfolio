@@ -1,3 +1,10 @@
+import { IoLogoHtml5 } from "react-icons/io";
+import { IoLogoNodejs } from "react-icons/io";
+import { IoLogoReact } from "react-icons/io5";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
+
 function About() {
     return (
         <div className="h-screen w-full bg-gray-800 flex items-center justify-center px-6">
@@ -7,23 +14,48 @@ function About() {
                         ABOUT ME
                     </h1>
                     <div className="relative z-10 pr-4">
-                        <div className="text-2xl font-[Mulish] mt-20 lg:mt-28 leading-relaxed text-white">
-                            <span className="font-bold text-green-400">Hello, I'm Solehadin,</span> a passionate web developer focused on
+                        <div className="text-2xl font-[Mulish] mt-20 lg:mt-28 leading-relaxed text-white text-justify">
+                            <span className="font-bold text-green-400">Hello, I&apos;m Solehadin,</span> a passionate web developer focused on
                             creating beautiful and user-friendly web applications. I specialize
                             in frontend and backend technologies, including 
-                            <span className="font-bold text-green-400"> HTML, CSS, JavaScript, React, Node.js, Express.js, and Tailwind CSS.</span>
+                            <span className="font-bold text-green-400"> HTML, CSS, JavaScript, React, Node.js, Express.js, and Tailwind CSS and Mongodb.</span>
                         </div>
-                        <p className="text-2xl font-[Mulish] mt-10 leading-relaxed text-white">
-                            I love coding and solving real-world problems through technology. My goal is to build scalable,
-                            efficient, and visually appealing applications that enhance user experiences. 
-                            With a strong foundation in modern web development frameworks, I continuously strive to improve my skills
-                            and stay updated with the latest industry trends.
-                        </p>
-                        <p className="text-2xl font-[Mulish] mt-10 leading-relaxed text-white">
-                            Beyond coding, I enjoy collaborating with teams, sharing knowledge, and contributing to open-source projects.
-                            My expertise in React and Tailwind CSS allows me to create highly customizable and responsive UIs that adapt
-                            seamlessly to different screen sizes.
-                        </p>
+                        <div className="mt-8 font-[Mulish]">
+                            <h1 className="font-bold text-2xl"><span className="text-green-400">My</span> Services</h1>
+                            <div className="grid grid-cols-2 gap-8 mt-8">
+                                <div className="rounded-2xl bg-gray-700 px-6 py-8">
+                                    <IoLogoHtml5 className="text-green-500 text-4xl mb-4"/>
+                                    <h2 className="mb-4 font-bold text-lg">Web Development</h2>
+                                    <p>I build custom websites using the latest technologies, ensuring a seamless user experience across all devices.</p>
+                                </div>
+                                <div className="rounded-2xl bg-gray-700 px-6 py-8">
+                                    <IoLogoNodejs className="text-green-500 text-4xl mb-4"/>
+                                    <h2 className="mb-4 font-bold text-lg">Backend Development</h2>
+                                    <p>I develop scalable and secure backends, connecting your frontend to powerful data management systems.</p>
+                                </div>
+                                <div className="rounded-2xl bg-gray-700 px-6 py-8">
+                                    <IoLogoReact className="text-green-500 text-4xl mb-4"/>
+                                    <h2 className="mb-4 font-bold text-lg">Frontend Development</h2>
+                                    <p>Front-end development focuses on creating responsive, visually appealing, and interactive user interfaces</p>
+                                </div>
+                                <div className="rounded-2xl bg-gray-700 px-6 py-8">
+                                    <FaLaptopCode className="text-green-500 text-4xl mb-4"/>
+                                    <h2 className="mb-4 font-bold text-lg">Customs Web Applications</h2>
+                                    <p>I build custom web applications tailored to your business needs, from e-commerce to content management systems.</p>
+                                </div>
+                                <div className="rounded-2xl bg-gray-700 px-6 py-8">
+                                    <FaMobileAlt className="text-green-500 text-4xl mb-4"/>
+                                    <h2 className="mb-4 font-bold text-lg">Responsive Design</h2>
+                                    <p>Responsive web development ensures a seamless and optimized user experience across all devices.</p>
+                                </div>
+                                <div className="rounded-2xl bg-gray-700 px-6 py-8">
+                                    <FaTools className="text-green-500 text-4xl mb-4"/>
+                                    <h2 className="mb-4 font-bold text-lg">Maintenance & Support</h2>
+                                    <p>I offer ongoing maintenance and support to ensure your website or application stays up-to-date, secure, and running smoothly.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0">
