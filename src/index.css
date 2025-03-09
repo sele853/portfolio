@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+body {
+  @apply min-h-screen overflow-hidden;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #e0e0e0; 
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #a0a0a0; 
+    border-radius: 10px;
+    opacity: 0.6; 
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #808080; 
+    opacity: 1; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+    background: #666666; 
+}

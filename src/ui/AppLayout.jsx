@@ -5,7 +5,7 @@ function AppLayout() {
     return (
         <div className="flex h-screen">
             <Sidebar />
-            <main className="bg-gray-800 flex-1 p-6 text-white">
+            <main className="bg-gray-800 flex-1  text-white">
                <Outlet />
             </main> 
         </div>

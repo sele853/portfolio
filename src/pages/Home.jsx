@@ -2,26 +2,28 @@ import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
-    <div className="flex flex-col items-center h-screen justify-center gap-y-5">
-      <h1 className="text-6xl font-serif font-Mulish">Solehadin Mohammed</h1>
-      <div>
-        <span className="text-3xl font-[Mulish]">i am  </span>
+    <div className="relative h-screen w-full overflow-y-auto flex flex-col items-center justify-center gap-y-5   ">
+      <span className="absolute top-0 right-0 left-0 bottom-0 bg-[url('/bg-1.jpg')] opacity-35 bg-cover"></span>
+      <h1 className="text-6xl font-extrabold z-40  font-[Mulish]">
+        Solehadin Mohammed
+      </h1>
+      <div className="z-40">
+        <span className="text-3xl font-[Mulish]  font-extralight">i am a </span>
         <TypeAnimation
-        sequence={[
-            'full stack developer', 
-            3000, 
-            'web developer', 
-            3000, 
-            'competitive programmer ', 
-            3000, 
-            
-            ]}
-            wrapper="span"
-            speed={50}
-            className="text-3xl font-bold"
-            repeat={Infinity}
-            />
-        </div>
+          sequence={[
+            "full stack developer.",
+            3000,
+            "web developer.",
+            3000,
+            "competitive programmer.",
+            3000,
+          ]}
+          wrapper="span"
+          speed={50}
+          className="text-3xl font-bold font-[Mulish]"
+          repeat={Infinity}
+        />
+      </div>
     </div>
   );
 }
