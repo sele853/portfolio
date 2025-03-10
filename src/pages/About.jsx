@@ -26,32 +26,32 @@ function About() {
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <IoLogoHtml5 className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Web Development</h2>
-                                    <p>I build custom websites using the latest technologies, ensuring a seamless user experience across all devices.</p>
+                                    <p className="text-gray-400">I build custom websites using the latest technologies, ensuring a seamless user experience across all devices.</p>
                                 </div>
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <IoLogoNodejs className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Backend Development</h2>
-                                    <p>I develop scalable and secure backends, connecting your frontend to powerful data management systems.</p>
+                                    <p className="text-gray-400">I develop scalable and secure backends, connecting your frontend to powerful data management systems.</p>
                                 </div>
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <IoLogoReact className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Frontend Development</h2>
-                                    <p>Front-end development focuses on creating responsive, visually appealing, and interactive user interfaces</p>
+                                    <p className="text-gray-400">Front-end development focuses on creating responsive, visually appealing, and interactive user interfaces</p>
                                 </div>
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <FaLaptopCode className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Customs Web Applications</h2>
-                                    <p>I build custom web applications tailored to your business needs, from e-commerce to content management systems.</p>
+                                    <p className="text-gray-400">I build custom web applications tailored to your business needs, from e-commerce to content management systems.</p>
                                 </div>
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <FaMobileAlt className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Responsive Design</h2>
-                                    <p>Responsive web development ensures a seamless and optimized user experience across all devices.</p>
+                                    <p className="text-gray-400">Responsive web development ensures a seamless and optimized user experience across all devices.</p>
                                 </div>
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <FaTools className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Maintenance & Support</h2>
-                                    <p>I offer ongoing maintenance and support to ensure your website or application stays up-to-date, secure, and running smoothly.</p>
+                                    <p className="text-gray-400">I offer ongoing maintenance and support to ensure your website or application stays up-to-date, secure, and running smoothly.</p>
                                 </div>
 
                             </div>
