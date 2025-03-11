@@ -2,8 +2,8 @@ function Portfolio() {
     return (
         <div className="w-full h-screen flex items-center justify-center font-[Mulish]">
            <div className="flex flex-col lg:flex-row items-center justify-center h-[90vh] ">
-               <div className="w-full px-6 lg:px-8 lg:w-2/3 overflow-y-auto h-full relative custom-scrollbar">
-                    <h1 className="font-bold text-7xl lg:text-9xl opacity-10 absolute top-10 right-2  z-0">PORTFOLIO</h1>
+               <div className="w-full px-6 lg:px-8 lg:w-2/3 overflow-y-auto h-screen relative custom-scrollbar">
+                    <h1 className="font-bold text-8xl lg:text-9xl opacity-10 absolute top-10 right-2  z-0">PORTFOLIO</h1>
                     <div className="mt-32 leading-relaxed z-10">
                         <h2 className="font-bold text-3xl"><span className="text-green-500">My</span> Portfolio</h2>
                         <div className="grid grid-cols-1 gap-8 mb-8 mt-12">
