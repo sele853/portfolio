@@ -5,13 +5,13 @@ import { IoLogoLinkedin } from "react-icons/io5";
 
 function Contact() {
   return (
-    <div className="w-full h-screen items-center justify-center font-[Mulish]">
+    <div className="w-full h-screen flex items-center justify-center font-[Mulish]">
       <div className="flex flex-col lg:flex-row items-center justify-center h-[90v]">
         <div className="w-full lg:w-2/3 px-6 lg:px-8 h-screen overflow-y-auto relative custom-scrollbar ">
-          <h1 className="font-bold text-8xl lg:text-9xl top-10 z-0 opacity-10">
+          <h1 className="font-bold text-8xl lg:text-9xl absolute top-15 z-0 opacity-10">
             CONTACTS
           </h1>
-          <div className="mb-8 mt-12">
+          <div className="mb-8 mt-38">
             <h2 className="font-bold text-2xl">
               <span className="text-green-500">Get</span> In Touch
             </h2>
@@ -59,10 +59,27 @@ function Contact() {
                 </div>
               </div>
             </div>
+            <div className="mt-20">
+              <h2 className="text-2xl font-bold"><span className="text-green-500">Contact</span> Form</h2>
+              <div className="mt-8 rounded-2xl bg-gray-700 px-12 py-12">
+                <div className="grid grid-cols-2 gap-18 ">
+                  <div className="flex flex-col mb-8"> 
+                      <input type="text" id="name" placeholder="Full Name" className="border-b border-gray-500 text-white bg-transparent pb-6  focus:outline-none w-full"/>
+                  </div>
+                  <div>
+                      <input type="email" id="email" className="border-b border-gray-500 text-white bg-transparent pb-6 focus:outline-none w-full " placeholder="Email Address"/>
+                  </div>
+                </div>
+                <div className="mt-6">
+                  <input type="text" id="message" className="border-b border-gray-500 text-white bg-transparent pb-12 focus:outline-none w-full" placeholder="Your Message"/>
+                </div>
+               
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 h-screen">
-          <img src="bg-4.jpg" />
+          <img src="cont-1.jpg" className="object-cover h-screen"/>
         </div>
       </div>
     </div>

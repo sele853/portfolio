@@ -14,7 +14,7 @@ function About() {
                         ABOUT ME
                     </h1>
                     <div className="relative z-10 pr-4">
-                        <div className="text-2xl font-[Mulish] mt-20 lg:mt-28 leading-relaxed text-white text-justify">
+                        <div className="text-2xl font-[Mulish] mt-20 lg:mt-30 leading-relaxed text-white text-justify">
                             <span className="font-bold text-green-400">Hello, I&apos;m Solehadin,</span> a passionate web developer focused on
                             creating beautiful and user-friendly web applications. I specialize
                             in frontend and backend technologies, including 

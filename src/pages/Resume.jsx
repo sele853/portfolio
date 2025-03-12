@@ -105,7 +105,7 @@ function Resume() {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 flex justify-center items-center">
-                    <img src="./bg-3.jpg" className="h-screen w-full object-cover "/>
+                    <img src="./bg-10.jpg" className="h-screen w-full object-cover "/>
                 </div>
             </div>
            
