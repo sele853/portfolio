@@ -7,9 +7,19 @@ import { FaTools } from "react-icons/fa";
 
 function About() {
     return (
-        <div className="h-screen w-full bg-gray-800 flex items-center justify-center px-6">
-            <div className="flex flex-col lg:flex-row w-full max-w-7xl h-[90vh]">
+        <div className="h-screen w-full bg-gray-800 flex items-center justify-center">
+            <div className="flex flex-col lg:flex-row w-full h-[90vh]">
+                {/* Content Section */}
                 <div className="w-full lg:w-2/3 px-6 lg:px-12 h-full relative overflow-y-auto custom-scrollbar">
+                    {/* Profile Picture for Small Screens */}
+                    <div className="lg:hidden flex justify-center items-center mt-10">
+                        <img 
+                            src="./profile-1.jpg" 
+                            className="h-auto max-h-[50vh] object-cover"
+                            alt="Profile" 
+                        />
+                    </div>
+
                     <h1 className="text-8xl lg:text-9xl font-bold opacity-10 absolute top-10 left-2 z-0">
                         ABOUT ME
                     </h1>
@@ -22,7 +32,7 @@ function About() {
                         </div>
                         <div className="mt-8 font-[Mulish]">
                             <h1 className="font-bold text-2xl"><span className="text-green-400">My</span> Services</h1>
-                            <div className="grid grid-cols-2 gap-8 mt-8">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                                 <div className="rounded-2xl bg-gray-700 px-6 py-8">
                                     <IoLogoHtml5 className="text-green-500 text-4xl mb-4"/>
                                     <h2 className="mb-4 font-bold text-lg">Web Development</h2>
@@ -53,15 +63,16 @@ function About() {
                                     <h2 className="mb-4 font-bold text-lg">Maintenance & Support</h2>
                                     <p className="text-gray-400">I offer ongoing maintenance and support to ensure your website or application stays up-to-date, secure, and running smoothly.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0">
+
+                {/* Profile Picture for Large Screens */}
+                <div className="hidden lg:flex lg:w-1/2 justify-center items-center">
                     <img 
-                        src="./profile.png" 
-                        className="w-64 h-64 lg:w-80 lg:h-80 rounded-full border-4 border-green-400 shadow-xl object-cover"
+                        src="./profile-1.jpg" 
+                        className="h-screen object-cover"
                         alt="Profile" 
                     />
                 </div>
